@@ -1,0 +1,77 @@
+
+body{
+font-family: Opensans;
+font-size: 30px;
+}
+
+.blue-lightblue{
+background: #0575E6; /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #0575E6 , #021B79); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #0575E6 , #021B79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#content{
+width:100%;
+position:absolute;
+left:0;
+height:590px;
+top:10px;
+overflow: hidden;
+}
+
+#backdrop{
+width:100%;
+position:absolute;
+left:0;
+height:100%;
+top:0;
+width:800px;
+left:calc(50% - 400px);
+background-color:lightgrey;
+}
+
+#ground{
+position:absolute;
+height:100px;
+width:100%;
+background-color:#025D80;
+bottom:0;
+left:0;
+}
+
+#svgBox3{
+position:absolute;
+height:400px;
+width:100%;
+background-color:transparent;
+bottom:100px;
+left:0;
+}
+
+
+#svgBox1{
+position:absolute;
+height:100px;
+width:100%;
+background-color:transparent;
+bottom:0;
+left:0;
+}
+
+#svgBox2{
+position:absolute;
+height:100px;
+width:100%;
+background-color:transparent;
+bottom:25px;
+left:0;
+}
+
+#footer{
+background-color:black;
+position:fixed;
+bottom:0;
+left:0;
+height:105px;
+width:100%;
+}
